@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(106, 165, 231, 0.658);
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    ;
+
+}
+
+main {
+    display: flex;
+    margin: 0 100px;
+
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2px;
+
+
+    background-color: #ffffff;
+    color: #000;
+    flex-direction: column;
+    width: 600px;
+    height: 100vh;
+
+
+
+}
+
+.twitter:hover {
+    background-color: rgba(212, 208, 208, 0.788);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    /* margin-left: 10px; */
+
+}
+
+
+li {
+    margin-top: 5px;
+    margin-left: 310px;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+
+    padding: 1.5rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.box1 {
+    border-right: 2px solid #8b8b8b6e;
+    /* margin-left: 400px; */
+}
+
+.menu1 {
+    display: flex;
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    ;
+
+}
+
+.box2 div {
+    display: flex;
+
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 510px;
+    height: 53px;
+}
+
+.explore span {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.explore:hover {
+    background-color: #8b8b8b6e;
+    width: 150px;
+
+    border-radius: 60px;
+    padding: 0px;
+}
+
+.nav img {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 370px;
+
+}
+
+.nav h1 {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.box3 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #8b8b8b6e;
+    width: 600px;
+    padding: 10px;
+}
+
+.box3 h1 {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.menu3 {
+    margin-left: 25px;
+    width: 358px;
+    padding: 20px;
+    border: 1px solid #8b8b8b6e;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+  
+}
+#google a,#apple a{
+    color: #000;
+}
+.menu3 button {
+    background-color: #fff;
+    border: 1px solid #6b6b6b98;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 0px 16px;
+   
+}
+
+.menu3 p {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #6b6b6bc4;
+    font-size: 15px;
+}
+
+.menu3 a {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+
+#google {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#google {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+    font-size: 15px;
+}
+
+#apple {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+
+    margin-bottom: 10px;
+}
+.buttons button:hover{
+    background-color: #d4d4d457;
+    
+}
+.links{
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #777777;
+ 
+    font-style: normal;
+    font-size: 14px;
+    width: 338px;
+    margin-top: 10px;
+    margin-left: 30px;
+ 
+}
+.links a{
+    text-decoration: none;
+    color: #777777;
+}
+.links a:hover{
+    text-decoration: underline;
+}
