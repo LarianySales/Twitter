@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(148, 80, 80);
     font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     ;
 
@@ -27,7 +27,7 @@ ul {
     background-color: #ffffff;
     color: #000;
     flex-direction: column;
-    width: 600px;
+    width: 300px;
     height: 100vh;
 
 
@@ -46,7 +46,7 @@ ul {
 
 li {
     margin-top: 5px;
-    margin-left: 310px;
+    margin-left: 102px;
 }
 
 li a {
@@ -57,7 +57,7 @@ li a {
     display: inline-block;
     display: flex;
     align-items: center;
-    gap: 1.1rem;
+    gap: 1rem;
 }
 
 .box1 {
@@ -76,7 +76,7 @@ li a {
     display: flex;
 
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 510px;
     height: 53px;
 }
@@ -93,6 +93,20 @@ li a {
 
     border-radius: 60px;
     padding: 0px;
+}
+.configuracao a:hover{
+     background-color: #8b8b8b6e;
+     height: 45px;
+     width: 155px;
+    border-radius: 60px;
+    padding: 0px;
+
+}
+.nav{
+    /* background-position: ; */
+    background-color: #ffffffcb;
+    position: fixed;
+
 }
 
 .nav img {
@@ -206,4 +220,52 @@ li a {
 }
 .links a:hover{
     text-decoration: underline;
+}
+.box2-1{
+    /* display: flex; */
+/* width: 510px; */
+background-color: #fff;
+
+border-top:1px solid #8b8b8b6e ;
+border-right:1px solid #8b8b8b6e ;
+}
+.box2-1 div{
+    /* display: inline-flex; */
+    margin-top: 51px;
+background-color: #fff;
+height: 110px;
+}
+/* .verificado{
+    width: 3px;
+    height: 3px;
+} */
+.box2-1 img{
+    margin-top: 5px;
+    margin-left: 13px;
+    width:48px ;
+    height: 48px;
+    border-radius: 50%;
+}
+.box2-1 h2,p{
+    margin-top: 10px;
+}
+.box2-1 div p{
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #3d3d3db7; 
+}
+
+.box2-1 h2{
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #000;  
+     font-size: 15px;
+     margin-left: 10px;
+}
+.arroba{
+margin-left: 10px;
+}
+.comentario {
+margin-top: 10px;
+width: 510px;
 }
